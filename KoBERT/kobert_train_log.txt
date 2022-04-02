@@ -1,0 +1,65 @@
+# Test 0
+max_len = 64
+batch_size = 64
+warmup_ratio = 0.1
+num_epochs = 5
+max_grad_norm = 1
+log_interval = 200
+learning_rate = 5e-5
+
+epoch 1 batch id 1 loss 1.884831428527832 train acc 0.15625
+epoch 1 batch id 201 loss 0.7493680715560913 train acc 0.5771921641791045
+epoch 1 batch id 401 loss 0.6330624222755432 train acc 0.6576917082294265
+epoch 1 batch id 601 loss 0.7306543588638306 train acc 0.6889039101497504
+epoch 1 batch id 801 loss 0.7258985042572021 train acc 0.7097183208489388
+epoch 1 train acc 0.7207860591226267
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:23: TqdmDeprecationWarning: This function will be removed in tqdm==5.0.0
+Please use `tqdm.notebook.tqdm` instead of `tqdm.tqdm_notebook`
+100%
+244/244 [01:59<00:00, 2.03it/s]
+epoch 1 test acc 0.7962474385245902
+100%
+973/973 [21:11<00:00, 1.06s/it]
+epoch 2 batch id 1 loss 0.45968395471572876 train acc 0.859375
+epoch 2 batch id 201 loss 0.6287719011306763 train acc 0.7823383084577115
+epoch 2 batch id 401 loss 0.4465189576148987 train acc 0.7920822942643392
+epoch 2 batch id 601 loss 0.4551789164543152 train acc 0.799214850249584
+epoch 2 batch id 801 loss 0.5099244117736816 train acc 0.8050873907615481
+epoch 2 train acc 0.8087406015037594
+100%
+244/244 [01:59<00:00, 2.04it/s]
+epoch 2 test acc 0.7968878073770492
+100%
+973/973 [21:11<00:00, 1.05s/it]
+epoch 3 batch id 1 loss 0.3311912715435028 train acc 0.921875
+epoch 3 batch id 201 loss 0.418643057346344 train acc 0.8342661691542289
+epoch 3 batch id 401 loss 0.2807425558567047 train acc 0.842035536159601
+epoch 3 batch id 601 loss 0.3031201958656311 train acc 0.8506915557404326
+epoch 3 batch id 801 loss 0.27564266324043274 train acc 0.8561563670411985
+epoch 3 train acc 0.8598288662303241
+100%
+244/244 [01:59<00:00, 2.04it/s]
+epoch 3 test acc 0.7912525614754099
+100%
+973/973 [21:09<00:00, 1.05s/it]
+epoch 4 batch id 1 loss 0.24711310863494873 train acc 0.9375
+epoch 4 batch id 201 loss 0.35456371307373047 train acc 0.8855721393034826
+epoch 4 batch id 401 loss 0.11712625622749329 train acc 0.8916770573566085
+epoch 4 batch id 601 loss 0.25617873668670654 train acc 0.8980345257903494
+epoch 4 batch id 801 loss 0.1723635047674179 train acc 0.9014513108614233
+epoch 4 train acc 0.9039536228160329
+100%
+244/244 [01:59<00:00, 2.05it/s]
+epoch 4 test acc 0.7897156762295082
+100%
+973/973 [21:10<00:00, 1.05s/it]
+epoch 5 batch id 1 loss 0.12869861721992493 train acc 0.953125
+epoch 5 batch id 201 loss 0.24435247480869293 train acc 0.9191542288557214
+epoch 5 batch id 401 loss 0.07336901873350143 train acc 0.923199812967581
+epoch 5 batch id 601 loss 0.2289031594991684 train acc 0.9272566555740432
+epoch 5 batch id 801 loss 0.10416097939014435 train acc 0.929229088639201
+epoch 5 train acc 0.9298561151079137
+100%
+244/244 [01:59<00:00, 2.05it/s]
+epoch 5 test acc 0.7940061475409836
+
