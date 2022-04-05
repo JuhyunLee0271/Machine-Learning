@@ -5,3 +5,4 @@ __pycache__
 .DS_Store
 venv/
 Sentiment_analysis/KoBERT
+Music/cc.ko.300.bin
